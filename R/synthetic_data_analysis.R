@@ -1,35 +1,36 @@
-#	synthetic_data_analysis.R: Program that creates synthetic data sets to 
-#		determine the optimal weighting value of the Kolomogorov-
-#		Smirnov test
-#
-#	Author: Yu, Alvin
-#
-#	Purpose: To analyze whether a weight, unweighted, or mixed weighted
-#		type of Kolmogorov-Smirnov test will produce the most
-#		accurate results.
-#
-#	Usage: "HLdifvalues.txt" and "HTHLdifvalues.txt" are needed and produced 
-#		from	"CompareGeneExpressionDrugVsVehicle.R". "cmap_instances_02_onlyHL60.txt"
-#		is also needed and can be downloaded from the Broad Institue
-#		Connectivity Map. The output of this script will be ten AUC
-#		values for a certain type of weighted, unweighted, or mixed
-#		weighted, with a specified q value. Package gplots, gtools, gdata,
-#		caTools, bitop, AUC, and ROCR will need to be loaded.
-#
-# 
-# This file is part of the drugscan software package. drugscan is free
-# software: you can redistribute it and/or modify it under the terms of
-# Apache Software License version 2.0 (and incorporated into this package
-# distribution in the file LICENSE).
-#
-# This program is distributed in the hope that it will be useful, but WITHOUT
-# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
-# FOR A PARTICULAR PURPOSE.  See the Apache Software License version 2.0 for 
-# details.
-#
-# Copyright Alvin Yu and Stephen Ramsey, Oregon State University
-# 2016.02
-#
+##	synthetic_data_analysis.R: Program that creates synthetic data sets to 
+##		determine the optimal weighting value of the Kolomogorov-
+##		Smirnov test
+##
+##	Author: Yu, Alvin
+##
+##	Purpose: To analyze whether a weight, unweighted, or mixed weighted
+##		type of Kolmogorov-Smirnov test will produce the most
+##		accurate results.
+##
+##	Usage: "HLdifvalues.txt" and "HTHLdifvalues.txt" contain the differential
+##              expression ratios for genes, between the drug-treated vs. vehicle-
+##              treated sample groups. "cmap_instances_02_onlyHL60.txt"
+##		is also needed and can be downloaded from the Broad Institue
+##		Connectivity Map. The output of this script will be ten AUC
+##		values for a certain type of weighted, unweighted, or mixed
+##		weighted, with a specified q value. Package gplots, gtools, gdata,
+##		caTools, bitop, AUC, and ROCR will need to be loaded.
+##
+## 
+## This file is part of the drugscan software package. drugscan is free
+## software: you can redistribute it and/or modify it under the terms of
+## Apache Software License version 2.0 (and incorporated into this package
+## distribution in the file LICENSE).
+##
+## This program is distributed in the hope that it will be useful, but WITHOUT
+## ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+## FOR A PARTICULAR PURPOSE.  See the Apache Software License version 2.0 for 
+## details.
+##
+## Copyright Alvin Yu and Stephen Ramsey, Oregon State University
+## 2016.02
+##
 
 pelements <- c(1,2,3)
 randescores <- c(1,2,3)
