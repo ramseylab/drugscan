@@ -7,7 +7,7 @@ Computational Life Science".
 
 Author:  Alvin Yu, Oregon State University
 
-From the lab of:  Stephen Ramsey, Oregon State University
+From the lab of:  Stephen Ramsey, Oregon State University (lab.saramsey.org)
 
 Date:  February 17, 2016
 
