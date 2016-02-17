@@ -1,0 +1,10 @@
+Drug Name	Cagnin Rank	Puig Rank	Average Rank
+sulfaguanidine	15	11	13
+doxylamine	21	19	20
+mafenide	3	46	24.5
+oxolinic acid	9	40	24.5
+dehydrocholic acid	23	29	26
+hydrastinine	16	41	28.5
+pyrantel	5	60	32.5
+Trolox C	38	27	32.5
+harman	46	21	33.5

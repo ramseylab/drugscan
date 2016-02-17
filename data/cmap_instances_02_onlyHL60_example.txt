@@ -1,0 +1,10 @@
+instance_id	batch_id	cmap_name	INN1	concentration (M)	duration (h)	cell2	array3	perturbation_scan_id	vehicle_scan_id4	scanner	vehicle	vendor	catalog_number	catalog_name
+361	35	LY-294002		0.00001	6	HL60	HG-U133A	EC2004030503AA	EC2004030502AA	HP GeneArray Scanner	DMSO	Calbiochem	440202	LY294002
+362	35	sirolimus	INN	0.0000001	6	HL60	HG-U133A	EC2004030504AA	EC2004030502AA	HP GeneArray Scanner	DMSO	Calbiochem	553210	rapamycin
+363	35	sodium phenylbutyrate		0.0001	6	HL60	HG-U133A	EC2004030505AA	EC2004030502AA	HP GeneArray Scanner	DMSO	Calbiochem	567616	sodium 4-phenylbutyrate
+364	35	trichostatin A		0.0000001	6	HL60	HG-U133A	EC2004030506AA	EC2004030502AA	HP GeneArray Scanner	DMSO	Calbiochem	647925	trichostatin A
+369	37	rosiglitazone	INN	0.00001	6	HL60	HG-U133A	EC2004032003AA	EC2004032002AA	HP GeneArray Scanner	DMSO	LKT Laboratories	R5772	rosiglitazone maleate
+370	37	troglitazone	INN	0.00001	6	HL60	HG-U133A	EC2004032004AA	EC2004032002AA	HP GeneArray Scanner	DMSO	Sigma-Aldrich	T2573	troglitazone
+371	37	rofecoxib	INN	0.00001	6	HL60	HG-U133A	EC2004032005AA	EC2004032002AA	HP GeneArray Scanner	DMSO	LKT Laboratories	R5722	rofecoxib
+387	41	estradiol	INN	0.00000001	6	HL60	HG-U133A	EC2004032010AA	EC2004032009AA	HP GeneArray Scanner	DMSO	Sigma-Aldrich	E1024	"estradiol, USP"
+388	41	raloxifene	INN	0.0000001	6	HL60	HG-U133A	EC2004032011AA	EC2004032009AA	HP GeneArray Scanner	DMSO	Sigma-Aldrich	R1402	raloxifene hydrochloride
